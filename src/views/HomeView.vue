@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- <TestHome /> -->
     <SliderHome />
     <MetiersHome />
   </div>
@@ -8,9 +7,8 @@
 
 <script>
 // @ is an alias to /src
-import SliderHome from '@/components/componentsHome/MetiersHome.vue'
+import SliderHome from '@/components/componentsHome/SliderHome.vue'
 import MetiersHome from '@/components/componentsHome/MetiersHome.vue'
-// import TestHome from '@/components/componentsTest/testHome.vue'
 
 export default {
   name: 'HomeView',

@@ -1,10 +1,15 @@
 <template>
   <div class="espace-client">
-    welcome to page Error
+    <LoginEspaceClientVue />
   </div>
 </template>
 <script>
+import LoginEspaceClientVue from '@/components/componentsEspaceClient/LoginEspaceClient.vue'
 export default {
+  name: "EspaceClientView",
+  components : {
+    LoginEspaceClientVue
+  }
 
 }
 </script>

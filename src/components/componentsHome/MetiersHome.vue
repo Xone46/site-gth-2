@@ -6,7 +6,7 @@
   
   <script>
   export default {
-    name: 'metiersHome',
+    name: 'MetiersHome',
   }
   </script>
   
@@ -14,9 +14,9 @@
   <style scoped>
 
   .metiers {
+    background-color: red;
     height: 100vh;
     width: 100%;
-    background-color: black;
   }
 
   </style>

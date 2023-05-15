@@ -14,7 +14,6 @@ export default {
 <style scoped>
   .slider {
     background-color: yellow;
-    color: black;
     height: 100vh;
     width: 100%;
   }
